@@ -1,0 +1,40 @@
+.contenedor-servicio {
+    width: 1000px;
+    height: 370px;
+    margin: 10px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: #343434 5px 5px 10px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.imagen-servicio {
+    height: 100%;
+    width: 400px;
+    object-fit: cover;
+}
+
+.texto-servicio {
+    text-align: center;
+    padding: 40px;
+    font-family: sans-serif;
+    line-height: 1.3rem;
+    font-size: 0.9rem;
+    color: black;
+    width: 600px;
+}
+
+.titulo-servicio {
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 20px;
+    color: #0d6efd;
+}
+
+.descripcion-servicio {
+    text-align: justify;
+}
